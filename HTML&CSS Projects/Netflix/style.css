@@ -1,0 +1,59 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Centering{
+    text-align: center;
+}
+#Righting{
+    text-align: right;
+}
+body {
+    width: 100vh;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("header-image.png");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+.Para {
+    font-size: 65px;
+    color: white;
+    text-align: center;
+}
+.Para2 {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+.Email{
+    height: 40%;
+    padding: 7px 10px;
+}
+.getstart
+{
+    color: white;
+    background-color: red;
+    padding: 10px 7px;
+    border: 1px solid red;
+    font-weight: 500;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    position: absolute;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+.dropdown{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid white;
+    padding: 7px 10px;
+}
