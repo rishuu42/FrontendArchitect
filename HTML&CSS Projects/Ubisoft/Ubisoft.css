@@ -1,0 +1,113 @@
+
+*{
+    font-family: Trebuchet MS; 
+}
+nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0 0 0;
+}
+.navbutton{
+    font-size: 15px;
+    margin-right: 50px; 
+    color: white; 
+    background-color: black;
+    font-weight: bold;
+}
+.dropdown{
+    font-size: 30px; 
+    margin-left: 10%; 
+    background-color: white; 
+    color: #d43b92; 
+    font-weight: bold; 
+    border: white;
+}
+.maindate
+{
+    margin-left: 11%; 
+    margin-right: 50%; 
+    font-size: 15px; 
+    line-height: 35px; 
+    padding: 20px;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+.mainnormaltext{
+    font-weight: 100;
+    margin: 20px 40% 0 12%; 
+    font-size: 20px; 
+    line-height: 35px;
+    padding: 10px 10px 10px 0; 
+    background: rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.mainheadings{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    margin-left: 12%; 
+    margin-right: 40%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    line-height: 50px; 
+    background: rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.readmorebutton{
+    font-size: 25px; 
+    margin-left: 12%; 
+    border-radius: 50px; 
+    background-color: #d43b92; 
+    color: white; 
+    padding: 15px 15px 15px 15px; 
+    border: white; 
+    font-weight: bold;
+}
+.dropdownnav
+{
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 0%;
+}
+.archivebutton
+{
+    font-size: 30px; 
+    margin-right: 10%; 
+    color: #d43b92; 
+    background-color: white; 
+    border: white; 
+    font-weight: bold;
+}
+.headingsright{
+    margin: 0 20% 10px 75px;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 900;
+}
+.normaltextright{
+    margin: 0 20% 10px 75px;
+    text-align: left;
+    font-size: 16px;
+}
+.date{
+    margin: 0 0 25px 75px;
+}
+.headingsleft{
+    margin: 0 49% 10px 150px;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 900;
+}
+.normaltextleft{
+    margin: 0 49% 10px 150px;
+    text-align: left;
+    font-size: 16px;
+}
